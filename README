@@ -20,7 +20,6 @@ It handles following functionalities :
 
 ## How can I use it ?
 
-1. 
 1. Enter one or more IP addresse of each one of your server in the file below : lib/ServerList.class.php
 2. Change login/password in the lib/PhpMongAdminConnect.class.php file
 3. Launch index.php
