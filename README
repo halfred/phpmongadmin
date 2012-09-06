@@ -1,0 +1,33 @@
+# Welcome to the phpmongadmin wiki!
+
+## What is it ?
+
+The aim of PhpMongAdmin is to be a PhpMyAdmin-like tool for MongoDb databases.
+It allows to manage databases of a single server or a replicaset of servers.<br><br>
+It handles following functionalities :
+* adding/editing/removing databases, collections and records
+* adding indexes and private keys
+* downloading grid.fs files
+* exporting collections (in Php and CSV format)
+
+
+## What do I need ?
+
+1. A php server (V5)
+2. MongoDb's Php driver
+3. A mongoDb database
+4. The javascript framework DojoToolkit (included)
+
+## How can I use it ?
+
+1. 
+1. Enter one or more IP addresse of each one of your server in the file below : lib/ServerList.class.php
+2. Change login/password in the lib/PhpMongAdminConnect.class.php file
+3. Launch index.php
+4. Enjoy :)
+
+## what can I do ?
+
+Correction minor bugs
+A GUI for configuring servers
+Translation
